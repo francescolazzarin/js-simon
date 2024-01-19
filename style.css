@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.d-flex{
+    display: flex;
+}
+.centrato{
+    margin: 0 auto;
+}
+.w-80{
+    width: 80%;
+}
+#countdown{
+    background-color: black;
+    justify-content: space-around;
+    padding: 20px;
+}
+#countdown >div{
+    height: 50px;
+    flex-basis: calc(100% /4);
+    background-color: white;
+}
+.text-white{
+    color: white;
+    font-size: 50px;
+}
